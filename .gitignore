@@ -1,0 +1,9 @@
+# generated / local
+*.pdf
+*.html
+*.swp
+*~
+.DS_Store
+
+# optional large unpacked trees
+/tmp/

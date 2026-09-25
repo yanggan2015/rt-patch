@@ -1,0 +1,46 @@
+# Applied upstream
+
+###########################################################################
+# Posted and applied
+###########################################################################
+
+###########################################################################
+# Posted
+###########################################################################
+
+###########################################################################
+# Post
+###########################################################################
+
+###########################################################################
+# For later, not essencial
+###########################################################################
+
+###########################################################################
+# DRM:
+###########################################################################
+# https://lore.kernel.org/all/20240613102818.4056866-1-bigeasy@linutronix.de/
+0001-drm-i915-Use-preempt_disable-enable_rt-where-recomme.patch
+0002-drm-i915-Don-t-disable-interrupts-on-PREEMPT_RT-duri.patch
+0004-drm-i915-Disable-tracing-points-on-PREEMPT_RT.patch
+0005-drm-i915-gt-Use-spin_lock_irq-instead-of-local_irq_d.patch
+0006-drm-i915-Drop-the-irqs_disabled-check.patch
+0007-drm-i915-guc-Consider-also-RCU-depth-in-busy-loop.patch
+drm-i915-Consider-RCU-read-section-as-atomic.patch
+0008-Revert-drm-i915-Depend-on-PREEMPT_RT.patch
+
+###########################################################################
+# POWERPC
+###########################################################################
+powerpc_pseries_iommu__Use_a_locallock_instead_local_irq_save.patch
+powerpc_kvm__Disable_in-kernel_MPIC_emulation_for_PREEMPT_RT.patch
+powerpc_stackprotector__work_around_stack-guard_init_from_atomic.patch
+POWERPC__Allow_to_enable_RT.patch
+
+# Sysfs file vs uname() -v
+sysfs__Add__sys_kernel_realtime_entry.patch
+
+###########################################################################
+# RT release version
+###########################################################################
+Add_localversion_for_-RT_release.patch

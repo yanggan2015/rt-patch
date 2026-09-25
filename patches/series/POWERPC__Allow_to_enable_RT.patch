@@ -1,0 +1,26 @@
+Subject: POWERPC: Allow to enable RT
+From: Sebastian Andrzej Siewior <bigeasy@linutronix.de>
+Date: Fri Oct 11 13:14:41 2019 +0200
+
+From: Sebastian Andrzej Siewior <bigeasy@linutronix.de>
+
+Allow to select RT.
+
+Signed-off-by: Sebastian Andrzej Siewior <bigeasy@linutronix.de>
+Signed-off-by: Thomas Gleixner <tglx@linutronix.de>
+
+
+---
+ arch/powerpc/Kconfig |    1 +
+ 1 file changed, 1 insertion(+)
+---
+--- a/arch/powerpc/Kconfig
++++ b/arch/powerpc/Kconfig
+@@ -173,6 +173,7 @@ config PPC
+ 	select ARCH_SUPPORTS_DEBUG_PAGEALLOC	if PPC_BOOK3S || PPC_8xx
+ 	select ARCH_SUPPORTS_HUGE_PFNMAP	if PPC_BOOK3S_64 && TRANSPARENT_HUGEPAGE
+ 	select ARCH_SUPPORTS_PAGE_TABLE_CHECK	if !HUGETLB_PAGE
++	select ARCH_SUPPORTS_RT			if HAVE_POSIX_CPU_TIMERS_TASK_WORK
+ 	select ARCH_SUPPORTS_SCHED_MC		if SMP
+ 	select ARCH_SUPPORTS_SCHED_SMT		if PPC64 && SMP
+ 	select SCHED_MC				if ARCH_SUPPORTS_SCHED_MC
