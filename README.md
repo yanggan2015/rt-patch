@@ -2,11 +2,15 @@
 
 官方 PREEMPT_RT 补丁笔记（当前：**7.3-rc4-rt1**）。
 
-## 两篇文章（按顺序读）
+## 文档（按顺序）
 
-| 文档 | 给谁 | 内容 |
-|------|------|------|
-| [docs/RT简明.md](docs/RT简明.md) | 零基础入门 | 背景 → 非 RT → RT → 补丁两层与改动地图（含 Mermaid） |
-| [docs/RT详解.md](docs/RT详解.md) | 对照源码 | 目录、`series` 逐文件、改写类型 A～F（含 Mermaid） |
+| 文档 | 用途 |
+|------|------|
+| [docs/RT简明.md](docs/RT简明.md) | 非 RT → RT → 补丁（零基础原理） |
+| [docs/RT详解.md](docs/RT详解.md) | 目录 + series 源码对照 |
+| [docs/RT历史里程碑.md](docs/RT历史里程碑.md) | 官方历史重大主题 |
+| [docs/RT隔离核与共享资源干扰.md](docs/RT隔离核与共享资源干扰.md) | 隔离核仍抖：共享缓存/内存/IO 与护航栈 |
 
-地址：[`RT_PATCH_URL.md`](RT_PATCH_URL.md)。材料：`patches/` 与 `patches/series/`。
+地址：[`RT_PATCH_URL.md`](RT_PATCH_URL.md)。材料：`patches/`、`patches/series/`。
+
+
