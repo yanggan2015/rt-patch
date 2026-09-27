@@ -10,6 +10,7 @@
 | [docs/RT详解.md](docs/RT详解.md) | 目录 + series 源码对照 |
 | [docs/RT历史里程碑.md](docs/RT历史里程碑.md) | 官方历史重大主题 |
 | [docs/RT隔离核与共享资源干扰.md](docs/RT隔离核与共享资源干扰.md) | 隔离核仍抖：共享缓存/内存/IO 与护航栈 |
+| [docs/RT护航算法-快速切断非隔离核资源.md](docs/RT护航算法-快速切断非隔离核资源.md) | **软件快切：护航状态机 + cgroup/resctrl 执行器** |
 
 地址：[`RT_PATCH_URL.md`](RT_PATCH_URL.md)。材料：`patches/`、`patches/series/`。
 
